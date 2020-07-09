@@ -11,7 +11,7 @@ public class ClientMain {
 
         try {
             socket = new Socket("localhost", 8189);
-            System.out.println("Вы в сети");
+            System.out.println("Вы в сети!");
 
             Scanner in = new Scanner(socket.getInputStream());
             PrintWriter out = new PrintWriter(socket.getOutputStream(), true);

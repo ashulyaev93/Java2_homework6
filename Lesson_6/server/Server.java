@@ -42,6 +42,7 @@ public class Server {
         }
     }
 
+    //два дополнительных метода для реализации удаления пользователей из чата. При остановке клиентской части выходит исключение;
     public void suscrabe(ClientHandler client){
         clients.add(client);
     }

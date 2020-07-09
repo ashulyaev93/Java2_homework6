@@ -49,7 +49,7 @@ public class ClientHandler {
                         } catch (IOException e) {
                             e.printStackTrace();
                         }
-                        server.unsuscrabe(ClientHandler.this);
+                        server.unsuscrabe(ClientHandler.this);// разорался с решением из ДЗ;
                     }
                 }
             }).start();
